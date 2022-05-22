@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&family=Montserrat&display=swap');
+
+*{box-sizing: border-box; border: 0 auto}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    width: 300px;
+    padding: 20px 10px;
+    border-radius: 20px;
+    background-color: grey;
+    box-sizing: content-box;
+}
+.screen{
+    width: 300px;
+    height: 60px;
+    padding: 0 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 20px;
+}
+.keyboard{
+    width: auto;
+    display: flex;
+}
+.row{
+    margin-top: 15px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.rowEnd{
+    margin-top: 15px;
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+button{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: montserrat;
+    font-weight: bold;
+}
+.space{
+    width: 60px;
+    height: 60px;
+}
